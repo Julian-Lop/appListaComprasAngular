@@ -1,0 +1,27 @@
+.Row{
+    width: 70%;
+    display: flex;
+    border-bottom: 1px #f3f3f3 solid;
+    padding: 15px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.Row div{
+    width: 20%;
+}
+.Row button{
+    background: none;
+    border: 2px #d43939 solid;
+    font-size: 15px;
+    font-weight: 600;
+    color: #d43939;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Row button:hover{
+    background: #d43939;
+    color: white;
+    transition: 0.3s;
+}
