@@ -7,6 +7,11 @@
     margin-left: 15%;
 }
 
+.Completed{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
 .Row div{
     width: 20%;
 }
